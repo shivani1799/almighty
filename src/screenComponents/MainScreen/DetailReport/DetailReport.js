@@ -108,23 +108,6 @@ const DetailReport = () => {
       children: <div>{text}</div>,
       extra: genExtra(3),
     },
-    // {
-    //   key: '4',
-    //   label: 'Prescription',
-    //   children: (
-    //     <div className={'p-2'}>
-    //       <Table
-    //         rowSelection={rowSelection}
-    //         columns={columns}
-    //         dataSource={data}
-    //         pagination={false}
-    //         bordered
-    //         size={'small'}
-    //       />
-    //     </div>
-    //   ),
-    //   extra: genExtra(4),
-    // },
     {
       key: '4',
       label: 'Prescription',
@@ -174,8 +157,6 @@ const DetailReport = () => {
                         </Button>
                       </Popover>
                     )}
-
-                    {/*<ArrowUpRightOutlined className={'text-gray-400'} />*/}
                   </div>
                 ),
               },
